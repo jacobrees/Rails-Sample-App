@@ -44,6 +44,10 @@ GEM
       tzinfo (~> 1.1)
     ansi (1.5.0)
     arel (9.0.0)
+    better_errors (2.8.3)
+      coderay (>= 1.0.0)
+      erubi (>= 1.0.0)
+      rack (>= 0.9.0)
     bootsnap (1.4.8)
       msgpack (~> 1.0)
     builder (3.2.4)
@@ -203,6 +207,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  better_errors
   bootsnap
   byebug (= 9.0.0)
   coffee-rails (= 5.0.0)
