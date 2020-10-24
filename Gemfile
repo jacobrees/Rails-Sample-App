@@ -13,6 +13,7 @@ gem 'coffee-rails', '5.0.0'
 gem 'jquery-rails', '4.1.1'
 gem 'turbolinks',   '5.0.0'
 gem 'jbuilder',     '2.9.0'
+gem 'bootsnap'
 
 group :development, :test do
   gem 'sqlite3', '1.3.11'
