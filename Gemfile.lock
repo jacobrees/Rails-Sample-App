@@ -46,6 +46,7 @@ GEM
     arel (9.0.0)
     autoprefixer-rails (10.0.1.0)
       execjs
+    bcrypt-ruby (3.1.2)
     better_errors (2.8.3)
       coderay (>= 1.0.0)
       erubi (>= 1.0.0)
@@ -87,6 +88,7 @@ GEM
     guard-minitest (2.4.4)
       guard-compat (~> 1.2)
       minitest (>= 3.0)
+    hirb (0.7.3)
     i18n (1.8.5)
       concurrent-ruby (~> 1.0)
     jbuilder (2.9.0)
@@ -212,6 +214,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bcrypt-ruby (= 3.1.2)
   better_errors
   bootsnap
   bootstrap-sass (= 3.3.6)
@@ -219,6 +222,7 @@ DEPENDENCIES
   coffee-rails (= 5.0.0)
   guard (= 2.13.0)
   guard-minitest (= 2.4.4)
+  hirb
   jbuilder (= 2.9.0)
   jquery-rails (= 4.1.1)
   listen (= 3.0.8)

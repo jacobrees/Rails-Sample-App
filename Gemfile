@@ -15,6 +15,7 @@ gem 'turbolinks',   '5.0.0'
 gem 'jbuilder',     '2.9.0'
 gem 'bootsnap'
 gem 'bootstrap-sass','3.3.6'
+gem 'bcrypt-ruby', '3.1.2'
 
 group :development, :test do
   gem 'sqlite3', '1.3.11'
@@ -27,6 +28,7 @@ group :development do
   gem 'spring',                '1.7.2'
   gem 'spring-watcher-listen', '2.0.0'
   gem "better_errors"
+  gem 'hirb'
 end
 
 group :test do
