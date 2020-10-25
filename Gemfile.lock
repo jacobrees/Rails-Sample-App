@@ -46,6 +46,7 @@ GEM
     arel (9.0.0)
     autoprefixer-rails (10.0.1.0)
       execjs
+    bcrypt-ruby (3.1.2)
     better_errors (2.8.3)
       coderay (>= 1.0.0)
       erubi (>= 1.0.0)
@@ -213,6 +214,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bcrypt-ruby (= 3.1.2)
   better_errors
   bootsnap
   bootstrap-sass (= 3.3.6)
