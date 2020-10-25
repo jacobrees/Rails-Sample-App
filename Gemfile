@@ -27,6 +27,7 @@ group :development do
   gem 'spring',                '1.7.2'
   gem 'spring-watcher-listen', '2.0.0'
   gem "better_errors"
+  gem 'hirb'
 end
 
 group :test do
